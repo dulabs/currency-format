@@ -1,0 +1,1 @@
+PHP Native Currency Class
