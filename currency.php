@@ -105,7 +105,7 @@ class Currency
 		return static::toString();
 	}
 	
-	public static function clear()
+	public static function revert()
 	{
 		static::$amount = 0;	
 		static::$decimalPlaces = 2;
@@ -117,7 +117,7 @@ class Currency
 	
 	public static function clean()
 	{
-		static::clear();
+		static::revert();
 	}
 	
 	public static function flush()
